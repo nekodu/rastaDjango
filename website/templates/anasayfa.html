@@ -1,0 +1,903 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Metas -->
+      <meta charset="utf-8">
+      <title>Rasta Derya</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Css -->
+      <link href="{% static 'website/css/bootstrap.css'%}" rel="stylesheet" type="text/css" media="all"/>
+      <link href="{% static 'website/css/base.css'%}" rel="stylesheet" type="text/css" media="all"/>
+      <link href="{% static 'website/css/main.css'%}" rel="stylesheet" type="text/css" media="all"/>
+      <link href="{% static 'website/css/flexslider.css'%}" rel="stylesheet" type="text/css"  media="all" />
+      <link href="{% static 'website/css/venobox.css'%}" rel="stylesheet" type="text/css"  media="all" />
+      <link href="{% static 'website/css/fonts.css'%}" rel="stylesheet" type="text/css"  media="all" />
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700,800" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div class="loader">
+         <!-- Preloader inner -->
+         <div class="loader-inner">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+               <circle class="spinner" cx="50" cy="50" r="21" fill="#ffffff" stroke-width="2"/>
+            </svg>
+         </div>
+         <!-- End preloader inner -->
+      </div>
+      <!-- End preloader-->
+      <!--Wrapper-->
+      <div class="wrapper">
+         <!--Hero section-->
+         <section class="hero overlay">
+            <!--Main slider-->
+            <div class="main-slider  flexslider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="{% static 'website/img/1.jpg'%}" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="{% static 'website/img/2.jpg'%}" alt="">
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!--End main slider-->
+            <!--Header-->
+            <header class="header default">
+               <div class=" left-part">
+                  <a class="logo scroll" href="#hero">
+                     <h2 class="mb-0">Rasta Derya</h2>
+                  </a>
+               </div>
+               <div class="right-part">
+                  <nav class="main-nav">
+                     <div class="toggle-mobile-but">
+                        <a href="#" class="mobile-but" >
+                           <div class="lines"></div>
+                        </a>
+                     </div>
+                     <ul>
+                        <li><a class="scroll" href="#about">Hakkımda</a></li>
+                        <li><a class="scroll" href="#services">Rasta Çeşitleri</a></li>
+                        <li><a class="scroll" href="#pricing">Ücretler</a></li>
+                        <li><a class="scroll" href="#appointment">Randevu</a></li>
+                        <li><a class="scroll" href="#locations">Adres</a></li>
+                        <li><a class="scroll" href="#news">GALERİ</a></li>
+                        <li><a class="scroll" href="#contact">İLETİŞİM</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </header>
+            <!--End header-->
+            <!--Inner hero-->
+            <div class="inner-hero">
+               <!--Container-->
+               <div class="container hero-content">
+                  <!--Row-->
+                  <div class="row">
+                     <div class="col-sm-12 text-center">
+                        <h1 class="large text-white secondary-font mb-0">Rasta Derya</h1>
+                        <h6 class="mb-0 text-white uppercase">Kendi hayatınızdan başkasını, yaşamayın.</h6>
+                     </div>
+                  </div>
+                  <!--End row-->
+               </div>
+               <!--End container-->
+            </div>
+            <!--End inner hero-->
+         </section>
+         <!--End hero section-->
+         <!--About section-->
+         <section id="about" class="about text-center main">
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 gap-one-bottom">
+                     <h2 class="mb-0 text-brown">Hakkımda</h2>
+                     <p class="text-beige mb-0">Hikayem Burda Başladı</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 gap-one-bottom">
+                     <div class="block-beard">
+                        <img class="mb-0" src="{% static 'website/img/3.png'%}" alt="">
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-6 col-sm-offset-3 ">
+                     <div class="block-content">
+                        <h3 class="uppercase mb-0">Babylon küstüremez beni hadi lan, sativam sonsuza dek olur manitam
+Hadi yak der beni edip Jah'a iman
+Tabiat gereği oluruz darma duman
+                           <span class="dots"></span>
+                        </h3>
+                        <h4 class="uppercase">territory of premium quality since 1990</h4>
+                        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<br> Ipsum has been the industry's standard dummy text ever since the 1500s, when an<br> unknown printer took a galley of type and scrambled it to make a type specimen<br> book galley of type and scrambled .</p>
+                        <img class="sing mb-0" src="{% static 'website/img/signature.png'%}" alt="">
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End about section-->
+         <!--Divider-->
+         <section class="divider overlay">
+            <div class="background-img zoom" >
+               <img src="{% static 'website/img/4.jpg'%}" alt="">
+            </div>
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center front-p">
+                     <h1 class=" large text-white  secondary-font">Randevu almak ister misin?</h1>
+                     <h4 class="uppercase text-white">Çalışma Saatleri</h4>
+                     <p class="text-white">Pazartesi-Cumartesi : 10:00 - 19:00<br>
+                        Pazar : 10:00 - 18:00</br>
+                     </p>
+                     <a href="#appointment" class="but scroll">Evet isterim</a>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End divider section-->
+         <!--Services section-->
+         <section id="services" class="services text-center main">
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 gap-one-bottom">
+                     <h2 class="mb-0 text-brown">Rastafarian Dünyası</h2>
+                     <p class="text-beige mb-0">Hangisini seçersen seç, kendi hayatından başkasını yaşama </p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row ">
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img class="mb-0"  alt="" src="{% static 'website/img/5.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">Örgü</h5>
+                              <span class="text-white">10 Lira</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img  class="mb-0" alt="" src="{% static 'website/img/6.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">Rasta</h5>
+                              <span class="text-white">20 Lira</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img class="mb-0" alt="" src="{% static 'website/img/7.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">Amerikan Örgüsü</h5>
+                              <span class="text-white">30 Lira</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img class="mb-0" alt="" src="{% static 'website/img/8.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">Saç tamiri</h5>
+                              <span class="text-white">40 lira</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img class="mb-0" alt="" src="{% static 'website/img/9.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">Boyama</h5>
+                              <span class="text-white">50 Lira</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <a class="scroll" href="#appointment">
+                           <div class="but-round">
+                              <div class="block-text">
+                                 <h5 class="secondary-font text-white mb-0">Hemen Randevu Al</h5>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End services section-->
+         <!--Review section-->
+         <section class="review  bg-beige dotted">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center gap-double-lg">
+                     <div class="review-slider flexslider">
+                        <ul class="slides">
+                           <li>
+                              <div class="block-review">
+                                 <h4 class="uppercase mb-0 text-brown">Bob Marley</h4>
+                                 <span class="text-beige">Yılların Müdavimi</span>
+                                 <blockquote>“ Valla dinimiz açısından saçlarımı rasta yaptırmak istedim. İnternetten araştırdım. Ankara'da Derya'yı buldum ve o gün bu gündür saçlarım için ona gidiyorum.“  </blockquote>
+                                 <ul class="block-star mt-10">
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="block-review">
+                                 <h4 class="uppercase mb-0 text-brown">Enrico marcelo</h4>
+                                 <span class="text-beige">2 yıllık müşteri</span>
+                                 <blockquote>“ Rastafarian felsefesini benimsemiş biriyim ve bu yüzden insanlara iyilik yapmayı ve iyilik görmeyi seviyorum. Derya'ya websitesi karşılığında bana rasta yapmasını istedim ve kabul etti. Derya gibi insanların olması geleceğe umutla bakmamı sağlıyor.“ </blockquote>
+                                 <ul class="block-star mt-10">
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star"></i></li>
+                                    <li><i class="icon-star-half"></i></li>
+                                 </ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End reviews section-->
+         <!--Services section-->
+         <section id="barbers" class="barbers text-center main">
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 gap-one-bottom">
+                     <h2 class="mb-0 text-brown">Takımımız</h2>
+                     <p class="text-beige mb-0">Rastacı tayfayla tanışın.</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-4">
+                     <div class="block-content text-left">
+                        <img class="img" src="{% static 'website/img/10.jpg'%}" alt="">
+                        <h4 class="uppercase mb-0 fw-800">Dövmeci Kenan</h4>
+                        <span class="fw-700 span">Yenimahalle  &#124; @dövmeci_kenan</span>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content text-left">
+                        <img class="img" src="{% static 'website/img/11.jpg'%}" alt="">
+                        <h4 class="uppercase mb-0 fw-800">Pirsing Buse</h4>
+                        <span class="fw-700 span">Çinçin  &#124; @pirsing_buse</span>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content text-left">
+                        <img class="img" src="{% static 'website/img/12.jpg'%}" alt="">
+                        <h4 class="uppercase mb-0 fw-800">Rasta Derya</h4>
+                        <span class="fw-700 span">Eryaman  &#124; @rasta_derya</span>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End reviews section-->
+         <!--Divider-->
+         
+         <!--End divider section-->
+         <!--Pricing section-->
+         <section id="pricing" class="pricing text-center main">
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 gap-one-bottom">
+                     <h2 class="mb-0 text-brown">Kaç Lira</h2>
+                     <p class="text-beige mb-0">Ücret Bilgileri</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 gap-one-bottom">
+                     <!--Tabs-->
+                     <ul class="block-tabs text-center">
+                        <li class="active overlay">
+                           <div class="background-img" >
+                              <img src="{% static 'website/img/19.jpg'%}" alt="">
+                           </div>
+                           <span class="front-p">Rasta</span>
+                        </li>
+                        <li class=" overlay">
+                           <div class="background-img" >
+                              <img src="{% static 'website/img/20.jpg'%}" alt="">
+                           </div>
+                           <span class="front-p">Amerikan Örgüsü</span>
+                        </li>
+                        <li class=" overlay">
+                           <div class="background-img" >
+                              <img src="{% static 'website/img/21.jpg'%}" alt="">
+                           </div>
+                           <span class="front-p">Diğer</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container ">
+               <!--Row-->
+               <div class="row">
+                  <ul class="block-tab mt-40">
+                     <!--Services list-->
+                     <li class="active block-list">
+                        <div class="col-sm-6  col-sm-offset-3 ">
+                           <h1 class=" medium text-beige secondary-font">Rasta Çeşitleri</h1>
+                           <div class="block-content text-left">
+                              <h3 class="service-title h3 uppercase text-brown">Kısa saç rasta</h3>
+                              <span class="dots-price"></span>
+                              <span class="service-price">80₺</span>
+                              <p>Seans süresi / Üç saat</p>
+                           </div>
+                           <div class="block-content text-left">
+                              <h3 class="service-title h3 uppercase text-brown">Uzun saç rasta</h3>
+                              <span class="dots-price"></span>
+                              <span class="service-price">25₺</span>
+                              <p>Seans süresi/ Yarım saat (bizden hızlısı mezarda)</p>
+                           </div>
+                           <div class="block-content text-left">
+                              <h3 class="service-title h3 uppercase text-brown">Ek rasta saç</h3>
+                              <span class="dots-price"></span>
+                              <span class="service-price">15₺</span>
+                              <p>Seans süresi / Beş saat</p>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Services list-->
+                     <li class=" block-list">
+                        <div class="col-sm-6  col-sm-offset-3 ">
+                           <h1 class=" medium text-beige secondary-font">Afro örgü</h1>
+                           <div class="block-content text-left">
+                              <h3 class="service-title h3 uppercase text-brown">Amerikan Örgüsü</h3>
+                              <span class="dots-price"></span>
+                              <span class="service-price">50₺</span>
+                              <p>Seans süresi / 30 dakika</p>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Services list-->
+                     <li class=" block-list">
+                        <div class="col-sm-6  col-sm-offset-3 ">
+                           <h1 class=" medium text-beige secondary-font">Diğer</h1>
+                           <div class="block-content text-left">
+                              <h3 class="service-title h3 uppercase text-brown">Diğer</h3>
+                              <span class="dots-price"></span>
+                              <span class="service-price">$15</span>
+                              <p>Seans süresi / 15 dakika</p>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+                  <!--End tabs-->
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End pricing section-->
+         <!--Appointment section-->
+         <section id="appointment" class="appointment dotted main bg-beige">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <!--<div class="row">
+                  <div class="col-sm-12 text-center gap-one-bottom">
+                     <h2 class="text-brown mb-0">Randevu</h2>
+                     <p class="text-beige">Randevunuzu Alın</p>
+                     <p class="lead mb-0">Sign up to our newsletters and get the most of our community advices <br> about hair and beard styles to improve your life style</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                     <div class="block-boxe border bg-white">
+                        <form method="post" class="appointment-form form" action="{% url 'randevu'%}">
+                           {% csrf_token %}
+                           <div class="col-sm-6">
+                              <div class="block-input  ico-input">
+                                 <label><span>İsminiz</span></label>
+                                 <div class="input-inner">
+                                    <i class="icon-user-1"></i>
+                                    <input  value="" id="user-name" name="name" type="text" >
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="block-input  ico-input">
+                                 <label><span>Email</span></label>
+                                 <div class="input-inner">
+                                    <i class="icon-mail-1"></i>
+                                    <input  value="" id="user-email" name="email" type="text">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="block-input  ico-input">
+                                 <label><span>Telefon Numaranız</span></label>
+                                 <div class="input-inner">
+                                    <i class="icon-phone"></i>
+                                    <input  value="" id="user-phone" name="phone" type="text">
+                                 </div>
+                              </div>
+                           </div>
+                           <!--<div class="col-sm-6">
+                              <div class="block-input  ico-input">
+                                 <label><span>Saçınızla kim ilgilensin?</span></label>
+                                 <div class="input-inner select">
+                                    <select >
+                                       <option value="">Saçınızla kim ilgilensin?</option>
+                                       <option value="">Rasta Kraliçesi Derya</option>
+                                       <option value="">Dövmeci Kenan</option>
+                                       <option value="">Pirsing Buse</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>-->
+                           <div class="col-sm-6">
+                              <div class="block-input  ico-input">
+                                 <label><span>Tarih</span></label>
+                             
+                                 <div class="input-inner">
+                                    <i class="icon-calendar"></i>
+                                    <input  value="" placeholder="(örn: 19/11/2020)" id="date" name="date" type="text">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="block-input  ico-input">
+                                 <label><span>Saat</span></label>
+                                 <div class="input-inner">
+                                    <i class="icon-clock"></i>
+                                    <input  value="" placeholder="(ex: 19:00 )" id="time" name="time" type="text">
+                                 </div>
+                              </div>
+                           </div>
+                           <!--<div class="col-sm-12">
+                              <div class="block-input  ico-input" >
+                                 <label><span>Yapmak istediğiniz işlem</span></label> 
+                                 <div class="input-inner select" >
+                                    <select>
+                                       <option value="">İşlem seç</option>
+                                       <option value="">Örgü</option>
+                                       <option value="">Rasta</option>
+                                       <option value="">Ek saç</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>-->
+                          
+                           <div class="col-sm-12">
+                              <div class="block-input">
+                                 <input value="randevu al" class="but  submit" type="submit">
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End appointment section-->
+         <!--Locations section-->
+         <section id="locations" class="locations  main text-center">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center gap-one-bottom">
+                     <h2 class="text-brown mb-0">Neredeyiz</h2>
+                     <p class="text-beige mb-0">Bizi bulmak çok kolay</p>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6120.327042892595!2d32.85694625090944!3d39.91535666532199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34dc3ca25a369%3A0xfac5d319ce21a434!2sAnkara%20Rasta%20Derya!5e0!3m2!1str!2str!4v1607129429280!5m2!1str!2str" width="2900" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+           <!-- <div class="container ">-->
+               <!--Row-->
+               <!--<div class="row ">
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img alt="" src="{% static 'website/img/16.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">brooklyne</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-12">
+                        <div class="block-content">
+                           <h4 class="uppercase"> address</h4>
+                           <p class="mb-0">1080 Broadway<br> Brooklyn, NY 11221</p>
+                        </div>
+                     </div>
+                     <div class="col-sm-8  col-sm-offset-2 ">
+                        <span class="dots"></span>
+                     </div>
+                     <div class="col-sm-12  ">
+                        <div class="block-content">
+                           <h4 class="uppercase ">barbershop hours</h4>
+                          <p>Monday - Saturday : 10am - 7pm<br>
+                        Sunday : 10am - 5pm<br>
+                     </p>
+                        </div>
+                     </div>
+                     <a href="#" class="but">location</a>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img alt="" src="{% static 'website/img/17.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">chicago</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-12">
+                        <div class="block-content">
+                           <h4 class="uppercase"> address</h4>
+                           <p class="mb-0">225 N Wabash Ave <br>Chicago, IL 60601</p>
+                        </div>
+                     </div>
+                     <div class="col-sm-8  col-sm-offset-2 ">
+                        <span class="dots"></span>
+                     </div>
+                     <div class="col-sm-12  ">
+                        <div class="block-content">
+                           <h4 class="uppercase ">barbershop hours</h4>
+                           <p>Monday - Saturday : 10am - 7pm<br>
+                        Sunday : 10am - 5pm<br>
+                     </p>
+                        </div>
+                     </div>
+                     <a href="#" class="but">location</a>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="block-content ">
+                        <div class="block-img-round">
+                           <img alt="" src="{% static 'website/img/18.png'%}">
+                           <span class="overlay-img"></span>
+                           <div class="block-text">
+                              <h5 class="secondary-font text-white mb-0">newyork</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-12">
+                        <div class="block-content">
+                           <h4 class="uppercase"> address</h4>
+                          <p class="mb-0">63 W 38th St, New York <br>NY 10018
+                     </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-8  col-sm-offset-2 ">
+                        <span class="dots"></span>
+                     </div>
+                     <div class="col-sm-12  ">
+                        <div class="block-content">
+                           <h4 class="uppercase ">barbershop hours</h4>
+                           <p>Monday - Saturday : 10am - 7pm<br>
+                        Sunday : 10am - 5pm<br>
+                     </p>
+                        </div>
+                     </div>
+                     <a href="#" class="but">location</a>
+                  </div>
+               </div>-->
+               <!--End row-->
+            <!--</div>-->
+         </section>
+         <!--End locations section-->
+         <!--Divider-->
+         <section class="divider overlay">
+            <div class="background-img zoom" >
+               <img src="{% static 'website/img/15.jpg'%}" alt="">
+            </div>
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center front-p">
+                     <h1 class=" large text-white  secondary-font">online marketimizi ziyaret edin</h1>
+                     <a href="#appointment" class="but scroll">Hadi</a>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End divider section-->
+         <!--News section-->
+         <!--<section id="news" class="news  main text-center">-->
+            <!--Container-->
+            <!--<div class="container">-->
+               <!--Row-->
+               <!--<div class="row">
+                  <div class="col-sm-12 text-center gap-one-bottom">
+                     <h2 class="text-brown mb-0">Latest news</h2>
+                     <p class="text-beige mb-0">Barbers talk</p>
+                  </div>
+               </div>-->
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <!--<div class="container">-->
+               <!--Row-->
+               <!--<div class="row block-enhanced">
+                  <div class="col-sm-4  enhanced">
+                     <div class=" block-content dotted bg-beige">
+                        <div class=" block-boxe">
+                           <span class="meta-date">June 27, 2016</span>
+                           <h3 class=" uppercase text-brown mb-0"> Hair Measurements<br>
+                              For Mens
+                           </h3>
+                           <a class="link text-beige" href="#">
+                           Read more
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4  enhanced">
+                     <div class=" block-content dotted bg-beige">
+                        <div class=" block-boxe">
+                           <span class="meta-date">June 27, 2016</span>
+                           <h3 class=" uppercase text-brown mb-0"> Messy Pompadour 
+                              <br>
+                              Mens Hair
+                           </h3>
+                           <a class="link text-beige" href="#">
+                           Read more
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4  enhanced">
+                     <div class=" block-content dotted bg-beige">
+                        <div class=" block-boxe">
+                           <span class="meta-date">June 27, 2016</span>
+                           <h3 class=" uppercase text-brown mb-0"> 5 Awesome Style Hacks 
+                              <br>
+                              That Save Time
+                           </h3>
+                           <a class="link text-beige" href="#">
+                           Read more
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>-->
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--<div class="col-sm-12 gap-one-top">
+               <a href="#" class="but">View all blog posts</a>
+            </div>
+         </section>-->
+
+         <!--End news section-->
+         <!--<section class="divider overlay">
+            <div class="background-img zoom" >
+               <img src="{% static 'website/img/14.jpg'%}" alt="">
+            </div>-->
+            <!--Container-->
+            <!--<div class="container">-->
+               <!--Row-->
+               <!--<div class="row">
+                  <div class="col-sm-12 text-center front-p">
+                     <h2 class="text-white">Bizden haber almak ister misiniz?</h2>
+                    
+                  </div>
+               </div>-->
+               <!--End row-->
+            <!--</div>-->
+            <!--End container-->
+            <!--Container-->
+            <!--<div class="container">-->
+               <!--Row-->
+                <!--<div class="row">
+                  <div class="col-md-8 col-md-offset-2 front-p">
+                     <div class="block-boxe bg-white">
+                        <form method="post" class="subscribe-form form" action="#">
+                           <div class="col-sm-8">
+                              <div class="block-input mb-0 ico-input">
+                                 <div class="input-inner">
+                                    <i class="icon-mail-1"></i>
+                                    <input placeholder="Email girin" value="" id="user-email-subscribe" name="email" type="text">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-4">
+                              <input value="Bize katıl" class="but  submit" type="submit">
+                           </div>
+                        </form>
+                     </div>-->
+                     <!--<div class="col-sm-12">
+                        <p class="text-white text-center text-small mb-0">* We don’t share your personal info with anyone. Check out our<br> 
+                           <strong><a href="#">Privacy Policy</a></strong> for more information. 
+                        </p>
+                     </div>-->
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--Feed section-->
+         <section class="feed bg-grey text-center">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12">
+                     <div class="block-boxe">
+                        <h4 class="uppercase mb-0">instagram</h4>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <ul class="insta-Feed" id="instafeed"></ul>
+         </section>
+         <!--End feed section-->
+         <!--Contact section-->
+         <section id="contact" class="contact main text-center">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-lg-4  col-lg-offset-4 col-sm-6  col-sm-offset-3">
+                     <div class="block-contact">
+                        <h3 class=" uppercase text-brown"> İletişim Bilgileri</h3>
+                        <p class="lead ">
+                           Bir sorunuz mu var? Bize soru sormaktan çekinmeyin.
+                           <br><br>
+                           Telefon: (513) 352-3209<br>
+                           <br>
+                           Email : <span><a href="mailto:someone@yoursite.com" class="link text-beige">rastafari@barber.com</a></span>
+                           <br><br>
+                           Pazartesi-Cumartesi : 10 - 19<br>
+                           Pazar : 10 - 17
+                        </p>
+                        <ul class="block-social">
+                           <li><a href="#"><i class="icon-twitter"></i></a></li>
+                           <li><a href="#"><i class="icon-instagram-1"></i></a></li>
+                           <li><a class="scroll" href="#hero"><i class="icon-up-open-1"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End contact section-->
+         <footer class="footer bg-beige dotted gap-double-sm">
+            <div class="container ">
+               <!--Row-->
+               <div class="row ">
+                  <div class="col-md-12   text-center">
+                     <p class="mb-0">© 2019 Greensoft Software bütün hakları saklıdır. <br>
+                         <a href="#">Greensoft Software</a> Ürünüdür..
+                     </p>
+                     
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+         </footer>
+      </div>
+      <!-- End wrapper-->
+      <!--Javascript-->	
+       <script src="{% static 'website/js/jquery-1.12.4.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'website/js/jquery.flexslider-min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'website/js/smooth-scroll.js' %}" type="text/javascript"></script>
+      <script src="{% static 'website/js/placeholders.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'website/js/instafeed.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'website/js/script.js' %}" type="text/javascript"></script>
+      <!-- Google analytics -->
+      <!-- End google analytics -->
+   </body>
+</html>
+
